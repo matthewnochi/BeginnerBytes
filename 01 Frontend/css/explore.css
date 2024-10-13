@@ -1,0 +1,101 @@
+.explore {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    gap: 30px;
+}
+
+.explore-card {
+    width: 350px; 
+    padding: 20px;
+    border-radius: 12px;
+    background-size: cover; 
+    background-position: center;
+    color: #fff; 
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); 
+    text-align: center; 
+    position: relative; 
+    overflow: hidden; 
+}
+
+.explore-card::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(255, 255, 255, 0.25); 
+    pointer-events: none; 
+}
+
+.explore-card-title {
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    height: 45px;
+    text-shadow: 1px 2px 4px rgba(0, 0, 0, 0.6); 
+}
+
+.explore-card-desc {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    height: 60px;
+    text-shadow: 1px 2px 4px rgba(0, 0, 0, 0.6); 
+}
+
+.explore-card-button {
+    background-color: #333; 
+    color: white; 
+    border: none;
+    padding: 8px 25px;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    box-shadow: 0 4px 6px rgba(123, 123, 123, 0.3); 
+}
+
+.explore-card-button:hover {
+    background-color: #555; 
+}
+
+.explore-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+    z-index: 0; 
+    border-radius: 12px;
+}
+
+.explore-card h1, .explore-card p, .explore-card button {
+    position: relative;
+    z-index: 1;
+}
+
+.title-explore {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.explore-arrows {
+    display: flex;
+    margin-top: 25px;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.explore-arrows svg {
+    cursor: pointer;
+}

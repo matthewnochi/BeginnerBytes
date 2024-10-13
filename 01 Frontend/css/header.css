@@ -1,0 +1,114 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.header {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: #fff; 
+    border-bottom: 2px solid #ccc; 
+}
+
+a {
+    all: unset;
+}
+
+.header-left {
+    display: flex;
+    gap: 30px;
+}
+
+.header-left-button {
+    background-color: transparent; 
+    color: #333;
+    border: 2px solid #333; 
+    padding: 8px 16px;
+    font-size: 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s, transform 0.3s;
+    box-shadow: none; 
+}
+
+.header-left-button:hover {
+    background-color: #333; 
+    color: #fff; 
+    transform: scale(1.05);
+    box-shadow: 0 4px 6px rgba(123, 123, 123, 0.3); 
+}
+
+.header img {
+    margin-left: 20px;
+    max-width: 100%;
+    height: auto;
+}
+
+.header-links {
+    display: flex;
+    align-items: center;
+    position: relative; 
+    gap: 20px;
+}
+
+.header-links button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    padding: 8px 16px;
+    border: none;
+    background-color: #333; 
+    color: #fff; 
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100px; 
+    transition: background-color 0.3s;
+}
+
+.header-links button:hover {
+    background-color: #555; 
+}
+
+.header-links > div {
+    position: relative; 
+}
+
+.header-links > div > div {
+    display: flex;
+    flex-direction: column;
+    position: absolute; 
+    top: calc(100% + 5px); 
+    left: -35px; 
+    width: 140px;
+    background-color: #fff; 
+    border: 1px solid #ccc;
+    border-radius: 4px; 
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); 
+    z-index: 1000; 
+    padding: 10px; 
+    max-height: 0;
+    overflow: hidden; 
+    transition: max-height 0.3s ease-in-out, opacity 0.3s ease-in-out; 
+}
+
+.header-links > div > div > p {
+    margin: 0; 
+    padding: 5px; 
+    color: #333;
+}
+
+.header-links > div > div > p:hover {
+    background-color: #f0f0f0; 
+    cursor: pointer;
+}
+
+#header-settings-content {
+    left: -40px; 
+}
+
+#skills-button {
+    text-align: center;
+}
