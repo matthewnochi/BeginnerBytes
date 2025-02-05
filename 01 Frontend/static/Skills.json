@@ -1,0 +1,141 @@
+{
+    "GeneralSkills": {
+        "KeyboardShortcuts": [
+            "Using Control + C To Copy",
+            "Using Control + V To Paste",
+            "Using Control + X To Cut",
+            "Using Control + Z To Undo",
+            "Using Control + A To Select All",
+            "Using Control + N To Open New Window",
+            "Using Control + T To Open New Tab",
+            "Using Alt + Tab To Switch Between Open Windows",
+            "Using Windows + D To Show Desktop",
+            "Using Windows + E To Open File Explorer",
+            "Using Windows + L To Lock Computer"
+        ],
+        "MouseOperations": [
+            "Clicking And Double Clicking",
+            "Right Clicking For Context Menus",
+            "Dragging And Dropping Files",
+            "Using Scroll Wheel"
+        ],
+        "InternetNavigation": [
+            "Browsing The Internet",
+            "Understanding URLs And Hyperlinks",
+            "Basic Search Engine Use",
+            "Understanding Browser Tabs And Windows",
+            "Downloading Files Safely",
+            "Using Bookmarks And Favorites"
+        ],
+        "EmailManagement": [
+            "Sending And Receiving Emails",
+            "Attaching Files To Emails",
+            "Managing Email Folders",
+            "Creating And Managing Email Contacts",
+            "Understanding Email Etiquette",
+            "Using Email Filters And Rules"
+        ],
+        "FileManagement": [
+            "Creating And Managing Folders",
+            "Saving And Organizing Files",
+            "Understanding File Types And Extensions",
+            "Renaming And Deleting Files",
+            "Using Recycle Bin",
+            "Basic File Compression"
+        ],
+        "SecurityBasics": [
+            "Understanding Password Security",
+            "Using Two Factor Authentication",
+            "Recognizing Phishing Attempts",
+            "Keeping Software Up To Date",
+            "Using Antivirus Software",
+            "Basic Firewall Configuration"
+        ]
+    },
+    "OSSkills": {
+        "WindowsSkills": [
+            "Navigating To Windows Settings",
+            "Understanding Start Menu",
+            "Managing Windows Updates",
+            "Using Task Manager",
+            "Customizing Desktop",
+            "Managing User Accounts",
+            "Using Windows Backup",
+            "Creating Multiple Desktops",
+            "Using File Explorer Tabs",
+            "Customizing Widgets"
+        ],
+        "macOSSkills": [
+            "Navigating To System Preferences",
+            "Understanding Dock",
+            "Managing macOS Updates",
+            "Using Activity Monitor",
+            "Customizing Desktop",
+            "Managing User Accounts",
+            "Using Time Machine For Backups",
+            "Creating Multiple Desktops"
+        ]
+    },
+    "ApplicationSkills": {
+        "MicrosoftOfficeSuite": [
+            "Using Word For Word Processing",
+            "Creating Spreadsheets With Excel",
+            "Making Presentations With Power Point",
+            "Using Outlook For Email Management",
+            "Understanding Basic Formatting Options",
+            "Advanced Excel Functions",
+            "PowerPoint Animations And Transitions"
+        ],
+        "GoogleWorkspace": [
+            "Using Google Docs For Word Processing",
+            "Creating Spreadsheets With Google Sheets",
+            "Making Presentations With Google Slides",
+            "Using Gmail For Email Management",
+            "Understanding Basic Formatting Options",
+            "Advanced Google Sheets Functions"
+        ],
+        "AdobeCreativeCloud": [
+            "Using Photoshop For Image Editing",
+            "Creating Vector Graphics With Illustrator",
+            "Making Presentations With In Design"
+        ]
+    },
+    "WebApplicationSkills": {
+        "BrowserUsage": [
+            "Adding Bookmarks To Chrome",
+            "Turning Off Shields On Brave Browser",
+            "Managing Browser Extensions",
+            "Understanding Private Browsing",
+            "Clearing Browser Cache",
+            "Using Browser Developer Tools"
+        ],
+        "GoogleDrive": [
+            "Using Google Drive For Cloud Storage",
+            "Creating Shared Folders And Files"
+        ],
+        "Trello": [
+            "Using Trello For Project Management",
+            "Creating Boards In Trello"
+        ],
+        "Slack": [
+            "Using Slack For Team Collaboration",
+            "Creating Channels In Slack"
+        ],
+        "Zoom": [
+            "Using Zoom For Video Conferencing",
+            "Setting Up Meetings In Zoom"
+        ],
+        "Dropbox": [
+            "Using Dropbox For Cloud Storage",
+            "Creating Shared Folders And Files"
+        ],
+        "Notion": [
+            "Using Notion For Note Taking",
+            "Creating Notes In Notion"
+        ],
+        "Evernote": [
+            "Using Evernote For Note Taking",
+            "Creating Notes In Evernote"
+        ]
+    }
+}

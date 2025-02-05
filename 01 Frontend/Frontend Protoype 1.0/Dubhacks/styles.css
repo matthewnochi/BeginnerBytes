@@ -1,0 +1,92 @@
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    font-family: sans-serif;
+    background-color: #f9f9f9;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start; /* Align items to the top */
+}
+
+.container {
+    text-align: center;
+    width: 90%;
+}
+
+h1 {
+    font-size: 4rem;
+    margin-bottom: 40px; /* Increase space below the header */
+    margin-top: 40px; /* Add space above the header to move it near the top */
+}
+
+.input-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 20px; /* Space between header and input containers */
+}
+
+.text-input-container {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 35px;
+    flex: 1;
+    margin: 0 10px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    height: 500px; /* Increase height for both containers */
+}
+
+.microphone-container {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 35px;
+    flex: 1;
+    margin: 0 10px;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    height: 500px; /* Increase height for both containers */
+}
+
+.text-input-container {
+    padding: 10px;
+}
+
+input[type="text"] {
+    padding: 20px;
+    border: 2px solid #ccc;
+    border-radius: 35px;
+    width: 100%;
+    font-size: 1.2rem;
+    background-color: #fff;
+    box-sizing: border-box;
+}
+
+.microphone-button {
+    background-color: rgba(255, 0, 0, 0.747); /* Red background */
+    border: none; /* No border */
+    border-radius: 50%; /* Circular shape */
+    width: 125px; /* Increased size */
+    height: 125px; /* Increased size */
+    margin-right: 40px;
+    cursor: pointer; /* Pointer cursor on hover */
+    font-size: 3rem; /* Increase icon size to scale with button */
+}
+
+.microphone-button i {
+    color: white;
+}
+
+#oscilloscope {
+    display: inline-block;
+    width: 60%;
+    height: 80px;
+    margin-top: 30px;
+    background-color: transparent; /* Transparent background */
+}

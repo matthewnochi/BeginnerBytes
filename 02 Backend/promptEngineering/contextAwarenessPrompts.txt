@@ -1,0 +1,26 @@
+## Prompts For context
+
+- Prompt for OS
+    - “in a CSV format, I need these things listed. the OS being used. The CSV list should not include the category of the item. For example, the CSV list should only include MacOS if that is the detected OS instead of the word OS itself. The format of the answer should all be separated by commas and all on the same line. if there is nothing available, simply return None in quotations. only the word None should be in quotations, anything that's a part of the CSV list should not be in quotations”
+    - result: “Windows 11”
+    
+- Prompt for applications
+    - “in a CSV format, I need these things listed. applications available, Only give me the CSV formatted list without any other output. The CSV list should not include the category of the item. For example, applications should include all available applications and not the category "applications" itself. The format of the answer should all be separated by commas and all on the same line. if there is nothing available, simply return None in quotations. Only the word None should be in quotations, anything that's a part of the CSV list should not be in quotations”
+    - result: “Microsoft 365,eBay,Walmart,QuickBooks,QVC,LinkedIn,Microsoft Start,Netflix,Microsoft Start,Discover,Following,News,Sports,Play,Money,Gaming,Weather,Watch,Learning,Shopping,Health,Travel,Traffic,Autos,Real Estate”
+    
+- Prompt for potential malware
+    - “In a CSV format, analyze this screenshot for potential malware seen on the screen, if there is none do not make a list. The CSV list should not include the category of the item. For example, the CSV list should only include the name of the potential malware instead of the word potential malware itself. The format of the answer should all be separated by commas and all on the same line. if there is nothing available, simply return None in quotations. Only the word None should be in quotations, anything that's a part of the CSV list should not be in quotations”
+    - result: “None” (this answer varies)
+
+- Prompt to detect buttons
+    - “in a CSV format, I need these things listed. buttons available, Only give me the CSV formatted list without any other output. The CSV list should not include the category of the item. For example, buttons should include all available buttons and not the category "buttons" itself. The format of the answer should all be separated by commas and all on the same line. if there is nothing available, simply return None in quotations. Only the word None should be in quotations, anything that's a part of the CSV list should not be in quotations”
+    - result: “new tab, manage favorites now, search, personalize, refresh stories, feed layout”
+
+- Prompt to get user action/potential intention
+    - “In a CSV format style analyze what the user is trying to do on this computer based on this screenshot and give a list of potential intentions. Only give me the CSV formatted list without any other output. The CSV list should not include the prompt's category. For example, potential actions should include all potential actions and not the category "potential actions" itself. The answer format should all be separated by commas and all on the same line. if there is nothing available, simply return None in quotations. Only the word None should be in quotations, anything that's a part of the CSV list should not be in quotations”
+    - result: “Browsing the internet, Searching for information, Checking weather updates, Shopping online, Reading news articles, Accessing Microsoft apps, Personalizing browser settings, Following current events”
+
+- Prompt to determine where objects are
+    - “imagine an x,y axis with the origin (0,0) being the top left of the screen. give me the exact x,y value of the ______ using numbers, and keep the numbers in a CSV-style answer. I only need the numbers, do not include any other output including words. If the object cannot be found, respond with None in quotation marks like: "None". Only the word None should be in quotations, anything that's a part of the CSV list should not be in quotations”
+    - result: “768,480”
+    - Additional notes: its best to let another application determine the precise coordinates of objects. The responses have been inconsistent at best.

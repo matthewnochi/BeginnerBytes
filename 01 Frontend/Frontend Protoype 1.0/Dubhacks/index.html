@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your App Title</title> 
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1 id="Question">What Would You Like Help Doing?</h1>
+        </header>
+        
+        <main>
+            <div class="input-container">
+                <div class="microphone-container">
+                    <button class="microphone-button" id="mic-button">
+                        <i class="fa fa-microphone"></i>
+                    </button>
+                    <canvas id="oscilloscope" width="400" height="100"></canvas>
+                </div>
+                <div class="text-input-container">
+                    <input type="text" placeholder="Type your message..." />
+                </div>
+            </div>
+        </main>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
